@@ -1,6 +1,7 @@
 .navbar {
   background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
-  height: 80px;
+  height: 79px;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -94,7 +95,8 @@
 
   .nav-menu.active {
     background: #242222;
-    left: 0;
+    left: -94px;
+    width: 115%;
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
@@ -103,8 +105,8 @@
   .nav-links {
     text-align: center;
 
-    width: 100%;
-    display: table;
+    width: 97%;
+    display: block;
   }
 
   .nav-links:hover {
@@ -157,6 +159,7 @@
     transition: 250ms;
   }
 }
-.textBavBarActive {
+.textBarActive {
   top: 50%;
+  height: 50%;
 }
