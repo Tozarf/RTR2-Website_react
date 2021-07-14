@@ -1,7 +1,6 @@
 .navbar {
   background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
-  height: 79px;
-  width: 100%;
+  height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -95,8 +94,7 @@
 
   .nav-menu.active {
     background: #242222;
-    left: -94px;
-    width: 115%;
+    left: 0;
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
@@ -104,9 +102,9 @@
 
   .nav-links {
     text-align: center;
-
-    width: 97%;
-    display: block;
+    padding: 2rem;
+    width: 100%;
+    display: table;
   }
 
   .nav-links:hover {
@@ -142,7 +140,7 @@
     text-align: center;
     margin: 2rem auto;
     border-radius: 4px;
-    width: 76%;
+    width: 80%;
     text-decoration: none;
     font-size: 1.5rem;
     background-color: transparent;
@@ -153,13 +151,8 @@
   }
 
   .nav-links-mobile:hover {
-    position: relative;
     background: #fff;
     color: #242424;
     transition: 250ms;
   }
-}
-.textBarActive {
-  top: 50%;
-  height: 50%;
 }
